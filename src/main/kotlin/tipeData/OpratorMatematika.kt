@@ -10,15 +10,17 @@ fun main() {
     var total: Int = 0
 
     val barang1 = 100
+    val barang2 = 200
+    val barang3 = 300
     total += barang1
 
-    val barang2 = 200
+
     total += barang2
 
-    val barang3 = 300
+
     total += barang3
 
-    println(total)
+    println("hasil = $total")
 
     total++ // total = total + 1
     total++ // total = total + 1
