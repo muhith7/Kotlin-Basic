@@ -15,7 +15,7 @@ fun main() {
         }
     }
 
-    println(factorialRecursive(5))
+    println(factorialRecursive(10))
 
 
 }
