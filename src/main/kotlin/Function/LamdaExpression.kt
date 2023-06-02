@@ -2,7 +2,7 @@ package Function
 
 fun toUpper(nilai: String): String = nilai.toUpperCase()
 fun main() {
-    //TAnpa fun LamdaExspression
+    //Tanpa fun LamdaExspression
     val contohLamda: (String, String) -> String = {firstName: String, lastName: String ->
         val result = "$firstName, $lastName"
         result
