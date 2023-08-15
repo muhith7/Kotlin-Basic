@@ -1,10 +1,10 @@
 package expression
 
 fun main() {
-    val nilai = 44
+    val nilai = 80
     if (nilai > 90 ){
         println("Pintar")
-    } else if (nilai > 80){
+    } else if (nilai >= 80){
         println("mainnya hebat")
     }else if (nilai > 70){
         println("not bad")

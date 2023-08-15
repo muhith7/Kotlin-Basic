@@ -13,7 +13,7 @@ fun main() {
     val lamdaIncrement:() -> Unit = {  //Contoh Lamda
         println("Lamda increment")
         counter++
-       // name = "Abdul" -- misal kita lupa ingin membuat variable name baru tapi lupa mendeklarasikannya secara tidak sengaja kita merubah dnilai name diatas 
+       // name = "Abdul" -- misal kita lupa ingin membuat variable name baru tapi lupa mendeklarasikannya secara tidak sengaja kita merubah dnilai name diatas
     }
 
     val anonymousIncrement = fun() {  //Contoh Anonymouse
